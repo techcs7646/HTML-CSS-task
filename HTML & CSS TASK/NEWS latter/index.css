@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; 
+    margin: 0;
+    padding: 0;
+}
+
+.outer-card {
+    width: 100%;
+    max-width: 450px;
+    height: 45vh;
+    margin: 50px auto;
+    background-color: #e0e0e0; 
+    padding: 20px;
+    border: 1px solid #ddd;
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    
+}
+
+h1{
+
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    top: -20px;
+    left: 40px;
+}
+
+.newsletter-section {
+    background-color: #fff; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+    top: 40px;
+}
+
+.newsletter-section h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+form {
+    position: relative;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    position: relative;
+}
+
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+}
+
+button {
+    width: 30%;
+    padding: 10px;
+    background-color: #10a3d8b7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+}
